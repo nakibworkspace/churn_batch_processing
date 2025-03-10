@@ -79,3 +79,5 @@ print("✅ Preprocessing complete! Data saved successfully.")
 
 # Keep the Spark session alive to access the Spark UI
 input("Press Enter to exit...")  # Keeps Spark UI alive until you manually exit
+
+spark.stop()
